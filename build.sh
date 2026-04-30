@@ -1,6 +1,6 @@
 echo "Building..."
 mkdir -p build
-wcc -0 -s -wx -d0 -ms - zl kernel.c
+wcc -0 -s -wx -d0 -ms -zl kernel.c
 wasm start.asm
 wlink @link.lnk
 nasm -f bin boot.asm -o boot.bin
