@@ -1,5 +1,5 @@
 ## ASCK v1 ##
-## Phaedra Parsons 2026 ##
+## Phaedra Rinn 2026 ##
 
 To build:
 
