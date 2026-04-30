@@ -5,7 +5,15 @@ ASCK - ASM Start C Kernel is my first attempt at an "Operating System" targeted 
 
 Phaedra Rinn 2026 
 
-To build:
+Requires OpenWotcom (https://www.openwatcom.org/), NASM (https://www.nasm.us/), and their dependencies
+
+Build w/script (linux):
+
+chmod +x build.sh
+
+./build.sh
+
+To build manually:
 
 wcc -0 -s -wx -d0 -ms -zl kernel.c
 
